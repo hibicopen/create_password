@@ -73,4 +73,4 @@ def check_password(verify_password, verify_number):  # 生成されたパスワ�
 
 
 if __name__ == "__main__":  # よくわからないがおまじない → create_password_gui.pyを直接実行した時と importされたことで動作したものと区別するための記述
-    main()
+    main()  #test
