@@ -11,9 +11,9 @@ def main():
     count = st.number_input(label="パスワード文字数（6～24）", value=8, )
     number = st.selectbox("パスワード組合せ",
                           ["１：小文字", "２：小文字＋大文字", "３：小文字＋大文字＋数字", "４：小文字＋大文字＋数字＋記号", "５：数字"])
-    buttom1 = st.button('生成')
+    button1 = st.button('生成')
 
-    if buttom1:
+    if button1:
         password = create(count, number)
         if password == 0:
             st.write("６～２４桁で指定してください")
