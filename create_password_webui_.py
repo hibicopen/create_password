@@ -7,7 +7,7 @@ import re
 def main():
     stylesheet = """
     <style>
-    h1 {color: red;}
+    h1 {color: Blue;}
     </style>
     """
     st.markdown(stylesheet, unsafe_allow_html=True)
