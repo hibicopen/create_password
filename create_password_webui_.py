@@ -22,11 +22,11 @@ def main():
     if button1:
         password = create(count, number)
         if password == 0:
-            st.write("６～２４桁で指定してください")
+            st.warning("６～２４桁で指定してください")
         elif check_password(password, number):
-            st.write("パスワード生成に失敗しました。もう一度 生成してください")
+            st.error("パスワード生成に失敗しました。もう一度 生成してください")
         else:
-            st.write("パスワードを生成しました")
+            st.success("パスワードを生成しました")
             st.code(password)
 
 
