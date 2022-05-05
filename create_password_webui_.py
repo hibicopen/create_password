@@ -5,7 +5,7 @@ import re
 
 
 def main():
-    # タイトル表示
+    # タイトル表示_
     st.title('パスワード生成')
     # テキスト表示
     count = st.number_input(label="パスワード文字数（6～24）", value=8, )
