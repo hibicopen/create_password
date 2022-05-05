@@ -5,6 +5,12 @@ import re
 
 
 def main():
+    stylesheet = """
+    <style>
+    h1 {color: red;}
+    </style>
+    """
+    st.markdown(stylesheet, unsafe_allow_html=True)
     # タイトル表示
     st.title('パスワード生成')
     # テキスト表示
